@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@use "./vendors/bootsrap/bootstrap";
+
+@use "./base/base";
+@use "./base/typography";
+
+@use "./layout/container";
+
+@use "./components/form";
+@use "./components/table";
+@use "./components/delete-btn";
