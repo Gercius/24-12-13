@@ -1,4 +1,6 @@
 table {
+    width: 100%;
+
     margin: 1.5rem auto 0 auto;
 
     td,
@@ -8,11 +10,19 @@ table {
 
     thead {
         text-align: center;
+
+        :first-child {
+            width: 5rem;
+        }
     }
 
     tbody {
         tr {
-            .completed {
+            &.completed {
+                text-decoration: line-through;
+            }
+
+            :first-child {
                 text-align: center;
             }
         }

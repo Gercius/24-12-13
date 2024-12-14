@@ -11897,7 +11897,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1000px;
   padding: 1rem;
 }
 
@@ -11924,6 +11924,7 @@ form .add-task .add-task-btn {
 }
 
 table {
+  width: 100%;
   margin: 1.5rem auto 0 auto;
 }
 table td,
@@ -11933,11 +11934,17 @@ table th {
 table thead {
   text-align: center;
 }
-table tbody tr .completed {
+table thead :first-child {
+  width: 5rem;
+}
+table tbody tr.completed {
+  text-decoration: line-through;
+}
+table tbody tr :first-child {
   text-align: center;
 }
 
-.delete-task {
+.delete-task-btn {
   margin-left: 0.5rem;
   padding: 0 0.5rem;
 }
