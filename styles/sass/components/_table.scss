@@ -1,6 +1,5 @@
 table {
     width: 100%;
-
     margin: 1.5rem auto 0 auto;
 
     td,
@@ -20,6 +19,7 @@ table {
         tr {
             &.completed {
                 text-decoration: line-through;
+                color: rgb(150, 150, 150);
             }
 
             :first-child {
