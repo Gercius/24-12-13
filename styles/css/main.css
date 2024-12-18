@@ -11941,6 +11941,9 @@ table tbody tr.completed {
   text-decoration: line-through;
   color: rgb(150, 150, 150);
 }
+table tbody tr td {
+  word-break: break-word;
+}
 table tbody tr :first-child {
   text-align: center;
 }

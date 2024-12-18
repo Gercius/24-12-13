@@ -22,6 +22,10 @@ table {
                 color: rgb(150, 150, 150);
             }
 
+            td {
+                word-break: break-word;
+            }
+
             :first-child {
                 text-align: center;
             }
